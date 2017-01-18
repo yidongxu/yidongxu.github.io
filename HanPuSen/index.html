@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" /> 
+	<title>广州汉普森少儿英语|成人英语|商务英语|外教一对一英语培训</title>
+	<meta name="keywords" content="广州汉普森少儿英语|成人英语|商务英语|外教一对一英语培训" />
+	<meta name="description" content="广州汉普森英语量身定制英语学习解决方案，无论是少儿英语、成人英语、商务英语、外教一对一英语培训课程，都有更强的针对性，全英语浸泡式学习环境，让您的学习效率提升10倍" />
+	<meta name="author" content="qinxue365.com_dy">
+	<meta name="mobile-agent" content="format=[wml|xhtml|html5];url=http://m.qinxue365.com/hpsz/index.html">
+	<link rel="icon shortcut bookmark" type="image/png" href="img/favicon.gif">
+	<link rel="stylesheet" type="text/css" href="css/base.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	<base target="_blank">
+	<script src="http://cdn.bootcss.com/jquery/1.9.1/jquery.min.js"></script>
+	<!--[if lt ie 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script> 
+	<![endif]--> 
+	<!--[if lt IE 9]>
+　　　<script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+　　	<![endif]-->	
+</head>
+<body>
+	<!--#include file="header.html"-->	
+	<!--轮播图-->
+	<div class="fullSlide width_all">
+		<div class="bd">
+			<ul>
+				<li><a href="class2.html" target="_blank"><img src="img/onetone-banner1.jpg" alt="英语一对一"/></a></li>			
+				<li><a href="class7.html" target="_blank"><img src="img/s-banner1.jpg" alt="商务英语"/></a></li>			
+				<li><a href="class5.html" target="_blank"><img src="img/y-banner1.jpg" alt="优惠活动"/></a></li>
+				<li><a href="class8.html" target="_blank"><img src="img/young-banner1.jpg" alt="青少年英语"/></a></li>
+			</ul>
+		</div>
+		<div class="hd"><ul></ul></div>
+		<a class="prev" ></a>
+		<a class="next" ></a>
+	</div>
+	<!--轮播图-->
+	<script type="text/javascript" src="js/jquery.SuperSlide.2.1.2.js" ></script>
+	<script>
+		jQuery(".fullSlide").slide({ titCell:".hd ul", mainCell:".bd ul", effect:"fold", vis:"auto", autoPlay:true, autoPage:true, trigger:"click" });
+		function message(id,dp){var mesg = document.getElementById(id);mesg.style.display=dp;}
+		$(function(){
+			$(".bread").on('click',function(){
+				$(this).addClass('bread_on').siblings().removeClass('bread_on');
+				var _index = $(this).index();
+				$("#index1 div ul").eq(_index).removeClass('dis_none').addClass('dis_block').siblings('ul').removeClass('dis_block').addClass('dis_none');
+			});
+			 var $li = $("nav ul li")[0];
+			$li.className="active";
+		});
+	</script>
+	<aside id="message">
+		<div class="mes-top">
+			<p class="p-t">在线留言</p>
+			<p class="p-top">让老师第一时间与您联系~</p>
+			<span onclick="message('message','none')">X</span>
+		</div>
+		 <div class="mes-main">
+			<form method="post" action="http://www.qinxue365.com/plus/guestbook.php" name="form1" target="_blank">
+				<input type="hidden" name="action" value="save">
+				<p>您的姓名 :</p>
+				<input type="text" name="title" class="inputs">
+				<p>联系电话 :</p> 
+				<input type="text" name="uname" class="inputs">
+				<p>所在城市 :</p> 
+				<input type="text" name="qq" class="inputs">
+				<p>课程名称 :</p> 
+				<input type="text" name="email" id="email" class="inputs" />
+				<p>留言信息 :</p>
+				<textarea name="msg"></textarea>
+				<div class="foo">
+				<span class="tp">
+					<img src="http://www.qinxue365.com/include/vdimgck.php" width="55" height="20" alt="在线留言验证码" onclick="this.src=this.src;" style="cursor:pointer">
+				</span>
+				<span><input name="validate" type="text" id="vdcode2" class="yzm inputs" placeholder="验证码"></span> 
+				<span><input maxlength="1000" type="submit" name="Submit" value="提交" class="tjan inputs"></span>
+				</div>
+			</form>
+		 </div>
+	</aside>	
+	<section class="width_all" id="index1">
+		<div class="width_main">
+			<h2>热门课程</h2>
+				<ul class="clearfix">
+					<li>
+						<a href="class1.html"><img src="img/i1.jpg" alt="少儿英语" /></a>
+						<div class="index1-text">
+							<h3>少儿英语<img src="img/new.gif" alt="热门课程" /></h3>
+							<p>14年专注少儿英语培训</p>
+							<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+						</div>
+					</li>
+					<li>
+						<a href="class2.html"><img src="img/i2.jpg" alt="英语一对一" /></a>
+						<div class="index1-text">
+							<h3>英语一对一<img src="img/new.gif" alt="热门课程" /></h3>
+							<p>英语外教一对一私人订制</p>
+							<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+						</div>
+					</li>
+					<li>
+						<a href="class3.html"><img src="img/i3.jpg" alt="零基础英语" /></a>
+						<div class="index1-text">
+							<h3>零基础英语<img src="img/new.gif" alt="热门课程" /></h3>
+							<p>从零学英语</p>
+							<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+						</div>
+					</li>
+					<li>
+						<a href="class4.html"><img src="img/i4.jpg" alt="免费学英语" /></a>
+						<div class="index1-text">
+							<h3>免费学英语</h3>
+							<p>免费体验外教课程</p>
+							<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+						</div>
+					</li>
+				</ul>
+				<ul class="clearfix dis_none">
+				<li>
+					<a href="class5.html"><img src="img/1.jpg" alt="优惠活动" /></a>
+					<div class="index1-text">
+						<h3>优惠活动</h3>
+						<p>报名立享8.8折</p>
+						<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+					</div>
+				</li>
+				<li>
+					<a href="class6.html"><img src="img/2.jpg" alt="英语口语" /></a>
+					<div class="index1-text">
+						<h3>英语口语</h3>
+						<p>解锁开口说英语的秘诀</p>
+						<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+					</div>
+				</li>
+				<li>
+					<a href="class7.html"><img src="img/3.jpg" alt="商务英语" /></a>
+					<div class="index1-text">
+						<h3>商务英语</h3>
+						<p>学好商务英语，让升值更简单</p>
+						<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+					</div>
+				</li>
+				<li>
+					<a href="class8.html"><img src="img/4.jpg" alt="青少年英语" /></a>
+					<div class="index1-text">
+						<h3>青少年英语</h3>
+						<p>6-18岁量身定制英语课程</p>
+						<div><a href="javascript:;" class="exchange">报名咨询</a><a href="javascript:;" onclick="message('message','block')" class="mesg">在线留言</a></div>
+					</div>
+				</li>
+			</ul>
+			<aside class="qie"><span class="bread bread_on"></span><span class="bread ml30"></span></aside>
+		</div>
+	</section>
+	<section class="width_all" id="One2">
+			<div class="width_main">
+				<h3 class="k-title" style="color: #fff;">快乐学英语，汉普森英语六大优势</h3>
+				<p class="k-t-c" style="margin-bottom: 50px;margin-top: 10px;color: #5BFFF9;">突破“哑巴英语” 外教一对一更有保障</p>
+				<ul class="clearfix ul2-1">
+					<li>
+						<h2>01</h2>
+						<p>全英语浸泡式学习环境，让您的学习效率提升10倍。</p>
+					</li>
+					<li></li>
+					<li>
+						<h2>02</h2>
+						<p>量身定制英语学习解决方案，针对性更强。</p>
+					</li>
+					<li></li>
+					<li>
+						<h2>03</h2>
+						<p>美国式轻松幽默的课堂气氛，学英语也可以妙趣横生。</p>
+					</li>
+				</ul>
+				<ul class="clearfix ul2-2">
+					<li>
+						<h2>04</h2>
+						<p>纯欧美外教一对一教学，发音纯正地道，培养正确英语思维。</p>
+					</li>
+					<li></li>
+					<li>
+						<h2>05</h2>
+						<p>丰富多彩的课程与课外活动，实景教学，增加英语学习兴趣。</p>
+					</li>
+					<li></li>
+					<li>
+						<h2>06</h2>
+						<p>完善的VIP专属学习跟踪服务系统，保障学员学习效果。</p>
+					</li>
+				</ul>				
+				<a class="exchange btn" style="background-color: #EA4876;">马上免费试听</a>
+			</div>
+		</section>	
+	<section class="width_main" id="index3">
+		<h2 class="t-h2" style="color: #383838;">汉普森外教一对一“<strong>私人定制</strong>”课程</h2>
+		<h4 class="t-h4" style="color: #7A7A7A;">全外教一对一，多样化教学，激发兴趣，重视实践，培养英语思维。</h4>
+		<ul class="clearfix">
+			<li>
+				<a href="class2.html" class="a-img">
+					<img src="img/i5.jpg" alt="幼儿英语" />
+					<div class="span-s"><span>+</span></div></a>
+				<h2>幼儿英语一对一</h2>
+				<span class="bread" style="background-color: #1E60CE;"></span>
+				<p>学习英语的同时全面开发宝宝各项潜能，有效丰富数学、美术、科学和音乐等其他学科方面的知识，让宝宝在无穷快乐的环境中爱上英语。</p>
+				<a href="javascript:;" class="btn exchange" style="background-color: #1E60CE;">免费试听</a>
+			</li>
+			<li>
+				<a href="class2.html" class="a-img">
+					<img src="img/i6.jpg" alt="青少年英语" />
+					<div class="span-s"><span>+</span></div></a>
+				<h2>青少年英语一对一</h2>
+				<span class="bread" style="background-color: #0ABF9F;"></span>
+				<p>采取互动情景教学模式，多学科综合知识渗透，让学员在不知不觉中养成正确英语思维，提升英语实践应用能力。</p>
+				<a href="javascript:;" class="btn exchange" style="background-color: #0ABF9F;">参加英语测评</a>
+			</li>
+			<li>
+				<a href="class2.html" class="a-img">
+					<img src="img/i7.jpg" alt="成人英语" />
+					<div class="span-s"><span>+</span></div></a>
+				<h2>成人英语一对一</h2>
+				<span class="bread" style="background-color: #1E60CE;"></span>
+				<p>以”OTM“教学法为导向，专业外教陪练，让学员真实地感受英语。从需求出发，解决职场商战中的英语瓶颈，确保学习效果。</p>
+				<a href="javascript:;" class="btn exchange" style="background-color: #1E60CE;">定制专属课程</a>
+			</li>
+			<li class="n_mr">
+				<a href="class2.html" class="a-img">
+					<img src="img/i8.jpg" alt="雅思托福考试" />
+					<div class="span-s"><span>+</span></div></a>
+				<h2>雅思托福考试一对一</h2>
+				<span class="bread" style="background-color: #0ABF9F;"></span>
+				<p>根据学员的学习目标及学员基础量身定制课程，根据学员学习进程，随时调整学习方案，完成学习计划取得成绩。</p>
+				<a href="javascript:;" class="btn exchange" style="background-color: #0ABF9F;">快速提升成绩</a>
+			</li>
+		</ul>
+	</section>
+	<section class="width_all" id="index4">
+		<h2 class="t-h2" style="color: #fff;">汉普森优秀外教   <strong style="color: #23F9FC;">就在您身边</strong></h2>
+		<h4 class="t-h4" style="color: #fff;">与纯外教学纯正英语</h4>		
+		<ul class="clearfix index4-ul width_main">
+			<li><a href="tea1.html">
+					<div class="fl"><img src="img/i9.jpg" alt="汉普森外教Zachary" /></div>
+					<div class="fr">
+						<h2>Zachary</h2>
+						<span class="bread"></span>
+						<p>国      籍:美国</p>
+						<p>擅长领域:少儿英语,青少年英语</p>
+					</div>
+				</a></li>
+			<li><a href="tea2.html">
+					<div class="fl"><img src="img/i10.jpg" alt="汉普森外教King" /></div>
+					<div class="fr">
+						<h2>King</h2>
+						<span class="bread"></span>
+						<p>国      籍:美国</p>
+						<p>擅长领域:少儿英语,成人英语,三...</p>
+					</div>
+				</a></li>
+			<li><a href="tea3.html">
+					<div class="fl"><img src="img/i11.jpg" alt="汉普森外教Tyrone" /></div>
+					<div class="fr">
+						<h2>Tyrone</h2>
+						<span class="bread"></span>
+						<p>国      籍:美国加州</p>
+						<p>擅长领域:青少年英语,成人英语</p>
+					</div>
+				</a></li>
+			<li><a href="tea4.html">
+					<div class="fl"><img src="img/i12.jpg" alt="汉普森外教Peter Alan Hil" /></div>
+					<div class="fr">
+						<h2>Peter Alan Hil</h2>
+						<span class="bread"></span>
+						<p>国      籍:澳大利亚</p>
+						<p>擅长领域:少儿英语,青少年英语</p>
+					</div>
+				</a></li>
+			<li><a href="tea5.html">
+					<div class="fl"><img src="img/i13.jpg" alt="汉普森外教Maria" /></div>
+					<div class="fr">
+						<h2>Maria</h2>
+						<span class="bread"></span>
+						<p>国      籍:英国</p>
+						<p>擅长领域:少儿英语,青少年英语</p>
+					</div>
+				</a></li>
+			<li><a href="tea6.html">
+					<div class="fl"><img src="img/i14.jpg" alt="汉普森外教Michael" /></div>
+					<div class="fr">
+						<h2>Michael</h2>
+						<span class="bread"></span>
+						<p>国      籍:美国</p>
+						<p>擅长领域:成人英语,雅思,托福</p>
+					</div>
+				</a></li>
+		</ul>
+		<a href="foreign.html" class="btn" style="background-color: #1E60CE;width: 175px;height: 45px;line-height: 45px;color: #fff;">更多外教 &gt;</a>
+	</section>
+	<section class="width_main" id="index5">
+		<h2 class="t-h2" style="color: #000;">资讯中心</h2>
+		<article class="clearfix">
+			<aside class="fl">
+				<div class="top-title clearfix"><h3>新闻聚焦</h3><a href="news.html">更多</a></div>
+				<div class="bd">
+					<ul class="infoList">
+						<li class="clearfix">
+							<a class="fl" href="news1.html"><img src="img/i22.jpg" alt="汉普森英语双11" width="168" height="118" /></a>
+							<div class="fr">
+								<h2>汉普森英语双11来啦<img src="img/new.gif" alt="热门新闻" /></h2>
+								<p>汉普森英语双11来啦!好礼送不停<br>好礼一：打折优惠....<br /><a href="news1.html">【详情】</a><span>2016/12/13</span></p>
+							</div>
+						</li>
+						<li>
+							<h2>英文儿歌磨耳朵，最该听的是什么?</h2>
+							<p>听儿歌的目的是锻炼耳朵(包括词的读音以及连读、省略等等)，感受英语的韵律、节奏。能够清晰地辨别每个音，这是小孩子学英语相比...<a href="news1.html">【详情】</a><span>2016/12/13</span></p>
+						</li>
+						<li>
+							<h2>儿童英语学习小游戏大盘点之训练听力篇</h2>
+							<p>爱玩是每个孩子的天性，在教导小孩子学习英语的时候，多做一些小游戏不仅可以大大的提高学习的效果，还可以让孩子乐在其中....<a href="news1.html">【详情】</a><span>2016/12/13</span></p>
+						</li>
+						<li>
+							<h2>这些英语考试中听力竟然占如此重要的比例，你还有什么</h2>
+							<p>目前各类型英语等级考试都非常重视孩子的听力考核，虽然我从来并不赞成以考试为唯一目的的英语学习，但对于这样的考核方向...<a href="news1.html">【详情】</a><span>2016/12/13</span></p>
+						</li>					
+					</ul>
+				</div>				
+			</aside>
+			<aside class="fr">
+				<div class="top-title clearfix"><h3>精彩活动</h3><a href="active.html">更多</a></div>
+				<div class="bd">
+					<ul class="infoList">
+						<li class="clearfix">
+							<a class="fl" href="active1.html"><img src="img/i21.jpg" alt="一对一英语" width="168" height="118" /></a>
+							<div class="fr">
+								<h2>一对一英语外教学习效果好吗?<img src="img/new.gif" alt="热门新闻" /></h2>
+								<p>很多人请外教学英语，一对一英语外教学习效果好吗?首先，我们要明白自己的学习目的是否适合请外教。外教会在口语、听力、<a href="active1.html">【详情】</a><span>2016/12/13</span></p>
+							</div>
+						</li>						
+						<li>
+							<h2>万圣节“跳蚤市场活动”汉普森英语江北校区等你来!</h2>
+							<p>活动特色：1、全仿真英文环境模拟，让孩子用英文进行真实买卖!Learning is for using2、培养孩子经济意识，让孩子了解到废物利...<a href="active1.html">【详情】</a><span>2016/12/13</span></p>
+						</li>
+						<li>
+							<h2>2016年汉普森英语万圣节冒险之夜</h2>
+							<p>一年一度的万圣节，已成为小朋友和大朋友最受欢迎的狂欢节目。在这个充满神秘色彩的晚上，除了月黑风高，...<a href="active1.html">【详情】</a><span>2016/12/13</span></p>
+						</li>
+						<li>
+							<h2>英语单词记忆沙龙活动</h2>
+							<p>10月29日下午1点,汉普森英语携手青岛孔易儒商教育，开展"快乐学习英语轻松记忆单词"英语沙龙活动...<a href="active1.html">【详情】</a><span>2016/12/13</span></p>
+						</li>				
+					</ul>
+				</div>				
+			</aside>		
+		</article>
+	</section>
+	<!--#include file="footer.html"-->
+</body>
+</html>
